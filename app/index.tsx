@@ -4,7 +4,7 @@ import useTodo from "@/hooks/useTodo";
 import Header from "@/layout/Header";
 import TodoCreator from "@/layout/TodoCreator";
 import TodoList from "@/layout/TodoList";
-import { StyleSheet, View, StatusBar } from "react-native";
+import { StatusBar, StyleSheet, View } from "react-native";
 
 export default function Index() {
   const { todos, completed, onAppend, onDelete, onUpdate, onCheck, isLoading } =
